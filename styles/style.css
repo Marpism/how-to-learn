@@ -191,7 +191,6 @@ justify-content:center;
 }
 
 .feynman__title {
-  margin: 0;
   max-width: 648px;
   line-height: 1.15;
   font-size: 120px;
@@ -298,7 +297,7 @@ top: 0px;
   margin: 60px auto 40px auto;
 }
 
-.footer__column_content_copyright {
+.footer__columns_content_copyright {
   margin: 0;
   padding: 0;
   flex-basis: 711px;
