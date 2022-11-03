@@ -280,7 +280,6 @@ height: 877px;
 position: absolute;
 right: -210px;
 top: 0px;
-
 }
 
 .footer {
@@ -297,13 +296,16 @@ top: 0px;
   margin: 60px auto 40px auto;
 }
 
-.footer__columns_content_copyright {
+.footer__column {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__column_content_copyright {
   margin: 0;
   padding: 0;
   flex-basis: 711px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .logo_place_footer {
@@ -334,6 +336,7 @@ top: 0px;
   padding: 0;
   list-style-type: none;
 }
+
 .footer__column-link {
   text-decoration: none;
   line-height: 30px;
